@@ -20,8 +20,8 @@ import (
 	"os"
 
 	"cloud.google.com/go/compute/metadata"
-	"contrib.go.opencensus.io/exporter/stackdriver"
-	"contrib.go.opencensus.io/exporter/stackdriver/propagation"
+	"github.com/carlos-shift/opencensus-go-exporter-stackdriver"
+	"github.com/carlos-shift/opencensus-go-exporter-stackdriver/propagation"
 	"go.opencensus.io/plugin/ochttp"
 	"go.opencensus.io/stats/view"
 	"go.opencensus.io/trace"

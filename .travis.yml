@@ -3,7 +3,7 @@ language: go
 go:
   - 1.12.x
 
-go_import_path: contrib.go.opencensus.io/exporter/stackdriver
+go_import_path: github.com/carlos-shift/opencensus-go-exporter-stackdriver
 
 env:
   global:

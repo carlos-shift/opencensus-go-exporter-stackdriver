@@ -50,7 +50,7 @@ test-with-coverage:
 .PHONY: test-with-cover
 test-with-cover:
 	@echo Verifying that all packages have test files to count in coverage
-	@scripts/check-test-files.sh $(subst contrib.go.opencensus.io/exporter/stackdriver,./,$(ALL_PKGS))
+	@scripts/check-test-files.sh $(subst github.com/carlos-shift/opencensus-go-exporter-stackdriver,./,$(ALL_PKGS))
 	@echo pre-compiling tests
 	@time go test -i $(ALL_PKGS)
 	$(GOTEST) $(GOTEST_OPT_WITH_COVERAGE) $(ALL_PKGS)

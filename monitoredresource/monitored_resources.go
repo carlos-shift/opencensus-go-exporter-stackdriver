@@ -17,8 +17,8 @@ package monitoredresource
 import (
 	"sync"
 
-	"contrib.go.opencensus.io/exporter/stackdriver/monitoredresource/aws"
-	"contrib.go.opencensus.io/exporter/stackdriver/monitoredresource/gcp"
+	"github.com/carlos-shift/opencensus-go-exporter-stackdriver/monitoredresource/aws"
+	"github.com/carlos-shift/opencensus-go-exporter-stackdriver/monitoredresource/gcp"
 )
 
 // Interface is a type that represent monitor resource that satisfies monitoredresource.Interface
